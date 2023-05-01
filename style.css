@@ -1,3 +1,6 @@
+/* common styling */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 #logo{
@@ -72,6 +75,10 @@ body{
     width: 100%;
 }
 
+/* common style end */
+
+/* header style */
+
 #header{
     display: flex;
     align-items: center;
@@ -89,7 +96,7 @@ body{
     display: flex; 
     align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 #navbar li{
@@ -121,6 +128,8 @@ body{
     bottom: -4px;
     left: 20px;
 }
+
+/* header style end*/
 
 #hero{
     background-image: url("img/hero5.jpg");
@@ -204,6 +213,8 @@ body{
     background-color: rgb(160, 225, 243);
 }
 
+/* product section style */
+
 #product1{
     text-align: center;
 }
@@ -282,6 +293,10 @@ body{
     right: 10px;
 }
 
+/* product section style */
+
+/* banners */
+
 #banner{
     display: flex;
     flex-direction: column;
@@ -323,7 +338,7 @@ body{
     align-items: flex-start;
     padding: 30px;
     background-image: url("img/banner/b1.jpg");
-    /* min-width: 520px; */
+    /* min-width: 350px; */
     width: fit-content;
     height: 50vh;
     background-size: cover;
@@ -373,6 +388,9 @@ body{
     background-position: center;
     
 }
+
+/* banners end */
+
 
 #newsletter{
     display: flex;
@@ -425,6 +443,8 @@ body{
     border-bottom-left-radius: 0;   
 }
 
+/* footer styling */
+
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -433,10 +453,6 @@ footer{
     padding-right: 60px;
     
 }
-
-/* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; */
 
 footer .col, .col1{
     display: flex;
@@ -512,4 +528,26 @@ footer .follow i:hover, footer a:hover {
 footer .copyright{
     width: 100%;
     text-align: center;
+}
+
+/* footer style end */
+
+/* Register page */
+
+.formContainer{
+    display: inline-block;
+    /* top: 50%;
+    left: 40%; */
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    width: 100%;
+    
+    background-color: #088178;
+    
+}
+.formContainer input{
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin: 8px;
+    
 }
