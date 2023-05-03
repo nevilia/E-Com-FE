@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Spartan', sans-serif;
 }
 
 .hero{
@@ -28,6 +31,7 @@
     position: relative;
     border-radius: 30px;
     box-shadow: 0 0 20px 9px #5d28d81f;
+    font-size: 13px;
 }
 
 .toggle-btn{
@@ -64,6 +68,10 @@
     color: #088178;
 }
 
+.social-icons i:hover{
+    box-shadow: 0 0 30px 0 #088178;
+}
+
 .input-group{
     top: 5px;
     position: absolute;
@@ -72,6 +80,7 @@
     margin: 20px 30px;
     padding: auto;
     border-radius: 50px;
+    font-size: 15px;
 }
 
 .input-field{
